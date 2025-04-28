@@ -57,7 +57,7 @@ print("Exemplo mais complexo:", (numero1 + numero2) * (numero1 - numero2) / 2)
 resultado = (numero1 + numero2) * (numero1 - numero2) / 2
 print("Resultado armazenado:", resultado)
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 '''num = int(input("Digite um número: "))
 for i in range(1, 11):
@@ -162,7 +162,7 @@ if palpite != numero_secreto:
     print(f"Fim de jogo! O número era {numero_secreto}.")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 produtos = {}
 
@@ -182,7 +182,7 @@ else:
     print("Produto não encontrado.")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 alunos = {
     "joao": {"idade": 15, "nota": 8.5},
@@ -204,7 +204,7 @@ for nome, dados in alunos.items():
         print(f'{chave}: {valor}')
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 alunos = {}
 
@@ -227,7 +227,7 @@ if __name__ == "__main__":
     print(listar())
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import json
 import os
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     menu()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import json
 
@@ -361,7 +361,7 @@ def menu():
 if __name__ == "__main__":
     menu()
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import tkinter as tk
 from tkinter import messagebox
@@ -431,7 +431,7 @@ tk.Label(janela, textvariable=resultado, fg="blue").pack()
 janela.mainloop()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 #  Regras para Nomes de Variáveis
 #  Devem começar com uma letra ou um _ (underline).
@@ -489,7 +489,7 @@ print(f"Em 10 anos, você terá {idade_futura} anos.")
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 # Sistema de Análise de Vendas com verificação de preços (Mini-BI)
@@ -572,7 +572,7 @@ print(f"📉 Menos vendido: {menos_vendido[0]} ({menos_vendido[1]['quantidade']}
 print(f"💵 Mais lucrativo: {mais_lucrativo[0]} (R$ {mais_lucrativo[1]['total_vendido']:.2f})")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import sqlite3
 
@@ -637,7 +637,7 @@ conn.close()
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 
@@ -697,7 +697,7 @@ def carregar_dados():
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import json
@@ -902,7 +902,7 @@ def editar_aluno():
         print(" Aluno não encontrado.")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import tkinter as tk
@@ -961,7 +961,7 @@ tk.Button(janela, text="Limpar", width=22, height=2, font=("Arial", 12), command
 janela.mainloop()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 # Função simples para validar CPF
@@ -994,7 +994,7 @@ def cadastrar_aluno():
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 # Aula prática com dicionários e dicionários aninhados em Python
@@ -1099,7 +1099,7 @@ while acao != "S":
 print("\nPrograma encerrado.")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 # Dicionário principal para armazenar os alunos
@@ -1150,7 +1150,7 @@ while True:
         print("Opção inválida. Tente novamente.")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 alunos = {}
 
@@ -1204,7 +1204,7 @@ if __name__ == "__main__":
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import sqlite3
@@ -1267,7 +1267,7 @@ def listar_todos():
     return lista
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import sqlite3
@@ -1303,7 +1303,7 @@ def inserir_aluno(cpf, nome, data_nasc, serie, email):
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import sqlite3
 from datetime import datetime, date
@@ -1496,7 +1496,7 @@ def consultar_boletim():
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import sqlite3
 from datetime import datetime, date
@@ -1685,7 +1685,7 @@ def consultar_boletim():
     con.close()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 
@@ -1736,7 +1736,7 @@ if __name__ == "__main__":
     menu()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import tkinter as tk
@@ -1772,7 +1772,7 @@ tk.Label(janela, textvariable=resultado, fg="blue").pack()
 janela.mainloop()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import tkinter as tk
 from tkinter import messagebox
@@ -1884,7 +1884,7 @@ janela.mainloop()
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import tkinter as tk
 from tkinter import messagebox
@@ -1964,7 +1964,7 @@ criar_tabela()
 janela.mainloop()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import sqlite3
@@ -2085,7 +2085,7 @@ janela.mainloop()
 conn.close()
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 import sqlite3
 #aluno=[]
@@ -2143,7 +2143,7 @@ con.close()
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 # Solução – Análise de Vendas com Verificação de Preço + Mais/Menos Vendido (Corrigido)
 
@@ -2217,7 +2217,7 @@ print(f"📈 Mais vendido(s): {', '.join(mais_vendidos)} ({maior_qtd} unidades)"
 print(f"📉 Menos vendido(s): {', '.join(menos_vendidos)} ({menor_qtd} unidades)")
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 import gestao_alunos_db_ref as sistema
@@ -2252,7 +2252,7 @@ if __name__ == "__main__":
 
 
 
-# - Próximo código:
+#  ⛔ =========  Próximo código:  =========  ⛔ 
 
 
 # Solução – Análise de Vendas com Verificação de Preço + Mais/Menos Vendido (sem usar min/max)
